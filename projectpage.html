@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Final Project: Bur Oak Blight around the Iowa Great Lakes</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/3-col-portfolio.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Bur Oak Blight around the Iowa Great Lakes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projectpage.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:olivia-whiting@uiowa.edu">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Page Heading -->
+      <h1> Final Project: Bur Oak Blight around the Iowa Great Lakes </h1>
+	  <h4> By Isaac Young, Olivia Whiting, and Tatum Long</h4>
+
+
+    <img class="card-img-top" src="images/pop.png" alt="">
+
+
+	  <h2>Details</h2>
+
+	  <h4>Goals</h4>
+
+	  <p>Our goal is to create a map with a compilation of our data spanning from 2022 - 2024 to represent the
+      spread of disease within the Bur Oak species around The Iowa Great Lakes. We want to achieve this by mapping
+      the spread and how it has changed over time using spatial and temporal data. To present our data we will create
+      a series of maps to show how Bur Oak trees have been effected by disease spread and if the species is able to
+      recover in the area surrounding the Iowa Great Lakes. We will compare maps to identify spread and recovery of
+      trees and how well the ecosystem is doing in the area. To achieve this goal we will create a visual representation
+      of effected Bur Oak Trees. Iowa's Bur Oak trees are susceptible to certain diseases and with worsening climate
+      change the spread of disease worsens. Bur Oaks play an important role in ecosystems as they provide habitat to
+      other living organisms along with keeping the ecosystem healthy and improving health of all trees. Trees thrive
+      in groups as they live off and support one another. When they are being effected by disease it likely effects
+      the whole area of trees. That is why this study is so important. It is key to map out affected trees so we can
+      find solutions and fight to maintain healthy trees, which in turn, will maintain a healthy ecosystem.</p>
+
+	  <h4>Data</h4>
+	  <p>Our main data source is bur oak blight (BOB) survey data collected by the University of Iowa Department of Geographical
+      and Sustainability Sciences. The study area includes an approximately 500 sq. kilometer area including Okoboji,
+      the Iowa Great Lakes, Iowa Lakeside Laboratory, and several state parks and nature reserves. This data was collected i
+      n the summers of 2022, 2023, and 2024 by various undergraduate students. Each tree is recorded as a point with GPS
+      coordinates collected using a Trimble DA2 and RTK corrections using a Trimble Catalyst GNSS subscription. Access to
+      RTK services were not available in 2022, so that data has a lower locational accuracy than 2023 and 2024 data. In 2022,
+      accuracy is within 4 meters on average while in 2023 and 2024 locations have submeter accuracy. The data has been
+      georeferenced to the NAD83 using the Universal Transverse Mercator projection in Zone 15N. Each tree had the following
+      characteristics recorded in the field:
+    </p>
+    <ul>
+      <li>A lower canopy blight severity ranking from 0 to 3 (taken from Harrington & McNew, 2019)
+        <ul>
+          <li>If none of the canopy exhibits signs of blight, 0 is the proper score</li>
+          <li>If up to 1/3 of the canopy exhibits signs of blight, 1 is the proper score</li>
+          <li>If 1/3 to 2/3 of the canopy exhibits signs of blight, 2 is the proper score</li>
+          <li>If greater than 2/3 of the canopy exhibits signs of blight, 3 is the proper score</li>
+        </ul>
+      </li>
+      <li>An upper canopy blight severity ranking from 0 to 3, using the same rules as the lower canopy</li>
+      <li>Combined canopy score from 0 to 6, by summing lower and upper canopy scores</li>
+      <li>Diameter at breast height (DBH), the diameter of the tree trunk 4 1/2 feet off of the ground</li>
+      <li>Tree height taken using a Nikon Forestry Pro II Laser Range Finder</li>
+      <li>Photographs of the whole tree, undersides of leaves, and tops of leaves</li>
+      <li>A brief, written description of the condition of the tree and its surroundings</li>
+    </ul>
+    <p>One major limitation of this data set is that the same trees were not revisited every year, so in 2022 there were
+      390 trees surveyed, less than 80 in 2023, and only 99 in 2024. Because of this, it will likely make sense for us
+      to focus our visualization primarily on 2022 data. Another potential limitation is that severity rating is somewhat
+      dependent of the subjective opinion of the surveyor. While having a common scale for severity ratings helps, ultimately
+       it is up to the surveyor and their eyesight to tell if trees have symptoms of blight (black or brown speckling, brown
+       spotting, dying leaf veins, entirely dead leaves) and how significant those symptoms are. Lastly, it is important to
+       acknowledge that the scope of these surveys is limited to the work undergraduates were able to accomplish in a limited
+       time window. There is a noticeable skew in the data toward infected trees because uninfected trees are difficult to
+       find in the area and a limited sample size means that the this set of trees may not be representative of BOB in general.
+    </p>
+    <p>
+      Potential supplemental data sources are satellite imagery provided by Planet Labs collected by the Planet Labs SuperDove
+      array with 8 spectral bands (coastal blue, blue, green 1, green 2, yellow, red, red edge, and near infrared) and a three-meter
+      spatial resolution. We also have a
+      <a href="https://hub.arcgis.com/datasets/esri::usa-detailed-water-bodies/explore?location=43.423508%2C-95.083775%2C12.63" target="_blank">
+        detailed shapefile for inland lake outlines provided by ESRI</a>
+        so we can represent the Iowa Great Lakes in our maps so users can spatially orient themselves.
+    </p>
+
+    <h4>Related Work</h4>
+    <p> At present, BOB has not been extensively studied. Much of the work done so far has been by researchers at Iowa State University:</p>
+    <li><a href="https://faculty.sites.iastate.edu/tcharrin/files/inline-files/BOB.pdf" target="_blank">
+      Classification of BOB as a distinct fungal infection (Harrington, McNew & Yun, 2012) </a></li>
+    <li><a href="https://www.srs.fs.usda.gov/pubs/gtr/gtr_srs213/gtr_srs213_07.pdf" target="_blank">
+      Susceptibility of bur oaks to BOB (Harrington & McNew, 2019) </a></li>
+    <li><a href="https://www.proquest.com/docview/1707143751?fromopenview=true&pq-origsite=gscholar&sourcetype=Dissertations%20&%20Theses"
+      target="_blank">Master’s thesis on BOB and some information on the severing at the petiole over the
+      winter that prohibits normal abscission (West, 2015) </a></li>
+    <p>Additionally,
+        <li> <a href="https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(04)00170-3?large_figure=true"
+          target="_blank"> Holdenrieder et al. (2004)</a></li>
+        provides more general analysis on understanding the challenges with uncovering the role
+        landscape processes play in tree diseases.</p>
+    <p>These previous works lay a solid foundation for the concepts and principles that will inform our representation.</p>
+
+	  <h4>Methods</h4>
+	  <p>
+      We will be using vector data to visualize effected Bur Oak Trees in the Iowa Great Lakes region. We will plot
+      these points over a basemap of water bodies of the United States. From this basemap, we will clip the specific
+      lakes we are working with. This will create a map of each lake that the Iowa Great Lakes consist of which include
+      lake Big Spirit, Center Lake, and West Okoboji Lake. Here we can clip each clump of points that belong to each lake.
+      By plotting points for each lake, the vector points will be more spread out and therefor easier to interpret and
+      compare each year. We will also create colors for the points that match what the map is showing. Once the points
+      have been separated to each lake, we will choose a different color for each set of points at each lake to visually
+      identify differences between the lakes within each year. We will have a different color for each area. By doing this
+      we believe it will simplify the data to where it can be easily interpretable while maintaining non bias within
+      presenting the data. Our goal is for people to be able to interpret the disease spread among Bur Oak Trees in the
+      Iowa Great Lakes region with ease while still gaining valuable information. This data presentation will hopefully
+      provide knowledge of the threats that Bur Oak Trees may face and the need to help recover Bur Oak Trees from the
+      possible effects of disease spread. It can inform not only people who live in the area and encourage action such as
+      further studies but, also informs people outside of the region of the dangers and threats that trees and ecosystems
+      face. We hope this data can help people form questions as to how they can help Bur Oaks and hopefully inspire further
+      research into the issue.
+    </p>
+    <p> <a href="https://usfs.maps.arcgis.com/apps/webappviewer/index.html?id=52cb2bcc3c2b4868ac87b66f622062ab"
+              target="_blank"> The US Forest Service and USDA's National Insect and Disease Risk Map</a></li>
+      is a phenomenal interactive map that allows users to see risk levels for many tree diseases across the nation.
+      BOB is listed as one of these diseases, but analysis tools for BOB seem limited. Regardless, risk visualization
+      by watershed could be useful for our analyses and the metadata for the map layers should be further explored.
+    </p>
+    <p><a href="https://experience.arcgis.com/experience/5eb53084bc934853859bab7e07a26354"
+      target="_blank">The Wisconsin DNR's map of restrictions on wood harvest because of oak wilt</a>
+      does a nice job showing park outlines and extents alongside areas of concern for oak wilt, which could be
+      valuable to us in describing particular parks or reserves in the Iowa Great Lakes area with high BOB severity.
+    </p>
+
+    <!-- Pagination -->
+    <ul class="pagination justify-content-center">
+      <li class="page-item">
+        <a class="page-link" href="projectpage.html">1</a>
+      </li>
+
+
+      <li class="page-item">
+        <a class="page-link" href="GullPoint.html">2</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="HalesSlough.html">3</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">...</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="MoreMaps.html">6</a>
+      </li>
+
+      <li class="page-item">
+        <a class="page-link" href="GullPoint.html" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+          <span class="sr-only">Next</span>
+        </a>
+      </li>
+    </ul>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Olivia Whiting 2025</p>
+      </div>
+
+
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
