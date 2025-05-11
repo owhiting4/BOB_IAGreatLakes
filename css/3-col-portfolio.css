@@ -54,7 +54,7 @@ body {
 }
 
 .pagination a.active {
-  background-color: #0388FC;
+  background-color: #388E3C;
   color: white;
   border-radius: 5px;
 }
@@ -68,4 +68,13 @@ body {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 60px;
+}
+
+.card a {
+  color: #4CAF50; /* Green */
+}
+
+.card a:hover {
+  color: #388E3C; /* Darker green on hover, optional */
+  text-decoration: underline; /* Optional: make it clearer it's a link */
 }

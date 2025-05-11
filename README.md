@@ -16,3 +16,8 @@ The study area spans approximately 500 sq. kilometers, encompassing several natu
 - ESRI- detailed water bodies shapefiles and ArcGIS Pro software
 - University of Iowa Department of Geographical and Sustainability Sciences- survey data
 - Somvis by the University of South Carolina- self organizing map software for visualization
+- https://dickinsoncountyconservationboard.com/our-parks/ - Kenue Park Picture
+- http://www.watchablewildlifenwia.org/sites-Hale.htm - Hales Slough picture
+- https://iowalakesidelab.org - Lakeside lab aerial picture
+- https://magazine.foriowa.org/story.php?ed=true&storyid=2381- Lakeside Lab picture (provided by Iowa Lakeside Laboratory)
+- https://www.youtube.com/watch?v=u93MZ9-Ujik - Gull Point picture
