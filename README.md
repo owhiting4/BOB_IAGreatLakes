@@ -1,6 +1,6 @@
 # GEOG3540 Geovisualization Final Project: Bur Oak Blight in the Iowa Great Lakes
 
-##This repository holds the final project for GEOG:3540 by Isaac Young, Olivia Whiting, and Tatum Long <br>
+## This repository holds the final project for GEOG:3540 by Isaac Young, Olivia Whiting, and Tatum Long <br>
 
 ### ABOUT THE DATA
 Our main data source is bur oak blight (BOB) survey data collected by the University of Iowa Department of Geographical and Sustainability Sciences. <br>
