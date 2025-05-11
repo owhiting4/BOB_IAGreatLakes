@@ -11,3 +11,8 @@ The study area spans approximately 500 sq. kilometers, encompassing several natu
 - The same trees were not revisited every year, so in 2022 there were 390 trees surveyed, less than 80 in 2023, and only 99 in 2024. Because of this, it will likely make sense for us to focus our visualization primarily on 2022 data.
 - Severity rating is somewhat dependent of the subjective opinion of the surveyor. While having a common scale for severity ratings helps, ultimately it is up to the surveyor and their eyesight to tell if trees have symptoms of blight (black or brown speckling, brown spotting, dying leaf veins, entirely dead leaves) and how significant those symptoms are.
 - It is important to acknowledge that the scope of these surveys is limited to the work undergraduates were able to accomplish in a limited time window. There is a noticeable skew in the data toward infected trees because uninfected trees are difficult to find in the area and a limited sample size means that the this set of trees may not be representative of BOB in general.
+
+### RESOURCES USED
+- ESRI- detailed water bodies shapefiles and ArcGIS Pro software
+- University of Iowa Department of Geographical and Sustainability Sciences- survey data
+- Somvis by the University of South Carolina- self organizing map software for visualization
