@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bur Oak Blight around the Iowa Great Lakes</title>
+    <link rel="icon" type="image/x-icon" href="images/tigerhawk.png">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/3-col-portfolio.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Bur Oak Blight around the Iowa Great Lakes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projectpage.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="readme.html">ReadME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/owhiting4/BOB_IAGreatLakes" target="_blank">GitHub</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Page Heading -->
+      <h1 style="margin-top: 20px;"> ReadME </h1>
+	  <h3> This is a page containing the contents of this project's readME file
+      that can also be found in the GitHub repository</h3>
+
+    <h4>ABOUT THE DATA</h4>
+
+    <p>Our main data source is bur oak blight (BOB) survey data collected by the
+      University of Iowa Department of Geographical and Sustainability Sciences.</p>
+
+    <p>The study area spans approximately 500 sq. kilometers, encompassing several nature reserves
+      in the Iowa Great Lakes area. This data was collected in the summers of 2022, 2023, and 2024
+      by various undergraduate students. Each tree is recorded as a point with GPS coordinates
+      collected using a Trimble DA2 and RTK corrections using a Trimble Catalyst GNSS subscription.
+      Access to RTK services were not available in 2022, so that data has a lower locational accuracy
+      than 2023 and 2024 data. In 2022, accuracy is within 4 meters on average while in 2023 and 2024
+      locations have submeter accuracy. The data has been georeferenced to the NAD83 using the Universal
+      Transverse Mercator projection in Zone 15N.</p>
+
+    <h4>KNOWN LIMITATIONS</h4>
+
+    <ul>
+      <li>The same trees were not revisited every year, so in 2022 there were 390 trees surveyed, less
+        than 80 in 2023, and only 99 in 2024. Because of this, it will likely make sense for us to focus
+        our visualization primarily on 2022 data.</li>
+      <li>Severity rating is somewhat dependent of the subjective opinion of the surveyor. While having
+        a common scale for severity ratings helps, ultimately it is up to the surveyor and their eyesight
+        to tell if trees have symptoms of blight (black or brown speckling, brown spotting, dying leaf veins,
+        entirely dead leaves) and how significant those symptoms are.</li>
+      <li>It is important to acknowledge that the scope of these surveys is limited to the work undergraduates
+        were able to accomplish in a limited time window. There is a noticeable skew in the data toward infected
+        trees because uninfected trees are difficult to find in the area and a limited sample size means that the
+        this set of trees may not be representative of BOB in general.</li>
+    </ul>
+
+    <h4>RESOURCES USED</h4>
+    <ul>
+      <li>ESRI- detailed water bodies shapefiles and ArcGIS Pro software</li>
+      <li>University of Iowa Department of Geographical and Sustainability Sciences- survey data</li>
+      <li>Somvis by the University of South Carolina- self organizing map software for visualization</li>
+      <li><a href="https://dickinsoncountyconservationboard.com/our-parks/" target="_blank">
+          Kenue Park Picture</a></li>
+      <li><a href="http://www.watchablewildlifenwia.org/sites-Hale.htm" target="_blank">
+          Hales Slough picture</a></li>
+      <li><a href="https://iowalakesidelab.org" target="_blank">
+          Lakeside lab aerial picture</a></li>
+      <li><a href="https://magazine.foriowa.org/story.php?ed=true&storyid=2381" target="_blank">
+          Lakeside Lab picture (provided by Iowa Lakeside Laboratory)</a></li>
+      <li><a href="https://www.youtube.com/watch?v=u93MZ9-Ujik" target="_blank">
+          Gull Point picture</a></li>
+
+
+    </ul>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-dark">Copyright &copy; Olivia Whiting, Isaac Young, Tatum Long<br> Final Project GEOG3540 Spring 2025 University of Iowa</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
