@@ -6,6 +6,13 @@
 
 body {
   padding-top: 54px;
+  background-image: url("../images/leaves2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  font-family: "Roboto Slab", serif;
+
 }
 
 @media (min-width: 992px) {
@@ -14,9 +21,26 @@ body {
   }
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: black !important;
+}
+
+.navbar-dark .navbar-brand {
+  color: black !important;
+}
+
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+.container {
+  background-color: rgba(255, 255, 255, 0.85); /* white with 85% opacity */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* optional: soft shadow for contrast */
+
+}
+
 
 .pagination {
   display: inline-block;
