@@ -21,3 +21,5 @@ The study area spans approximately 500 sq. kilometers, encompassing several natu
 - https://iowalakesidelab.org - Lakeside lab aerial picture
 - https://magazine.foriowa.org/story.php?ed=true&storyid=2381- Lakeside Lab picture (provided by Iowa Lakeside Laboratory)
 - https://www.youtube.com/watch?v=u93MZ9-Ujik - Gull Point picture
+<br>
+This repository is maintained by Olivia Whiting.
